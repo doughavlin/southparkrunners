@@ -3,8 +3,7 @@ import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 
-const workouts = require('../../data/workouts.json')
-console.log(workouts)
+const workouts = require("../../data/workouts.json");
 const propTypes = {
   ...SectionTilesProps.types,
 };
@@ -75,12 +74,8 @@ const Workouts = ({
                       <div className="testimonial-item-name text-color-high">
                         {group_a}
                       </div>
-                      <div className="text-color-low">
-                        {group_b}
-                      </div>
-                      <span className="testimonial-item-link">
-                        
-                      </span>
+                      <div className="text-color-low">{group_b}</div>
+                      <span className="testimonial-item-link"></span>
                     </div>
                   </div>
                 </div>
