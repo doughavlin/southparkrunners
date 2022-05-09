@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../../elements/Image';
 import classNames from 'classnames';
 
 const FooterSocial = ({
@@ -18,7 +19,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://facebook.com/">
+          <a href="https://www.facebook.com/groups/417127075730549">
             <svg
               width="16"
               height="16"
@@ -31,6 +32,15 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
+          <a href="https://www.strava.com/clubs/southparkrunning">
+          <Image
+            src={require('./../../../assets/images/strava-2.svg')}
+            alt="Strava"
+            width={16}
+            height={16} />
+          </a>
+        </li>
+        {/* <li>
           <a href="https://twitter.com/">
             <svg
               width="16"
@@ -60,7 +70,7 @@ const FooterSocial = ({
               </g>
             </svg>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

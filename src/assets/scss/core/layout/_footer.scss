@@ -11,6 +11,16 @@
 		background: color-bg(footer);
 		z-index: -3;
 	}
+	.logo {
+		display: inline-block;
+	}
+
+	.site-name {
+		padding-left: $header-nav--padding-h;
+		margin-top: .5rem;
+		vertical-align: top;
+		font-size: medium;
+	}
 }
 
 .site-footer-inner {

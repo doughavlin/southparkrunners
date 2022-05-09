@@ -18,15 +18,18 @@ const Logo = ({
       {...props}
       className={classes}
     >
-      <h1 className="m-0">
+      <h3 className="m-0">
         <Link to="/">
           <Image
             src={require('./../../../assets/images/logo.png')}
             alt="Open"
-            width={32}
-            height={32} />
+            width={50}
+            height={50}
+            className="logo" />
+          <span className="logo site-name">South Park <span className="text-color-primary">Runners</span></span>
         </Link>
-      </h1>
+
+      </h3>
     </div>
   );
 }

@@ -1,0 +1,56 @@
+[
+    {
+        "week": 1,
+        "group_a": "3-5 x 1200m @ A/T*(60 sec jog recovery)",
+        "group_b": "3-5 x 800m @ A/T*(60 sec walk recovery)",
+        "description": "We are going to start with a stamina-building workout intended to increase lactate threshold. Raising lactate threshold enables one to race faster/further before fatigue sets in. They are called cruise-intervals(popularized by running coach Jack Daniels). Benefits are similar to tempo runs. Don't turn your threshold-pace workouts into competitive efforts;  *threshold-pace should feel comfortably hard (10K pace + 15-20 seconds)."
+    },
+    {
+        "week": 2,
+        "group_a": "4-5 x 1000m @ 10K pace (400m jog recovery)",
+        "group_b": "4-6 x 800m @ 10K pace (400m jog recovery)",
+        "description": "This is based off of 10K race pace. Doing the repeats a little slower than 5K pace will be a good way to introduce your body to the speedwork without risking injury from going too fast. It shouldn’t be too hard, but give you a chance for leg turnover."
+    },
+    {
+        "week": 3,
+        "group_a": "12-14 x 200m @ 1m pace (200m jog recovery)",
+        "group_b": "8-12 x 200m @ 1m pace (200m jog recovery)",
+        "description": "We will only be running a half-lap at a time, but the pace is quicker (1 mile race pace)."
+    },
+    {
+        "week": 4,
+        "group_a": "Strides + 1 mile Time Trial",
+        "group_b": "Strides + 1 mile Time Trial",
+        "description": "Strides are accelerations of 15-20 seconds. We will break into groups and run one mile all out. This will give you a chance to see how far you've come within your training so far!"
+    },
+    {
+        "week": 5,
+        "group_a": "3 x 1000m @ 10K pace (400m jog) + 2 x 800m @ 5K pace (400m jog)",
+        "group_b": "2 x 1000m @ 10K pace (400m jog) + 2 x 800m @ 5K pace (400m jog)",
+        "description": "This workout puts together the 10K strength work, plus race specific 5K pace. Goal: not to go out too fast, but finish strong."
+    },
+    {
+        "week": 6,
+        "group_a": "7-8 x 600m 5K pace (200m jog)",
+        "group_b": "6-7 x 600m @ 5K pace (200m jog)",
+        "description": "This workout is about learning pace for the 5K. The short jog rest keeps us honest!"
+    },
+    {
+        "week": 7,
+        "group_a": "3 x 1200m @ 5K pace (400m jog) + 2 x 400m @ 1m pace (400m jog)",
+        "group_b": "2-3 x 1200m @ 5K pace (400m jog) + 2x 400m @ 1m pace (400m jog)",
+        "description": "Continuing with your 5K pace, then finishing strong at mile race pace for one lap."
+    },
+    {
+        "week": 8,
+        "group_a": "Ladder - 1200m @ 5K pace (400m jog) + 800m @ 3K pace (400m jog) + 600m @ 1m pace (400m jog) + 400m @ 800m pace (400m jog) + 200m @ 400m pace",
+        "group_b": "Ladder - 800m @ 3K pace (400m jog) + 600m @ 1m pace (400m jog) + 400m @ 800m pace (400m jog) + 200m @ 400m pace",
+        "description": "As each interval decreases in length, you increase the speed. This mimics our progression of going out at pace, then finishing strong."
+    },
+    {
+        "week": 9,
+        "group_a": "5 x 400m @ 5K pace (400m jog) + 5 x 400m @ 1m pace (400m jog)",
+        "group_b": "4 x 400m @ 5K pace (400m jog) + 4 x 400m @ 1m pace (400m jog)",
+        "description": "The first set will be at 5K pace, the second at mile pace. These shorter repeats leave you fresh for a weekend race."
+    }
+]

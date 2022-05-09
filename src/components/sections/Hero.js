@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
+/*
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+*/
 
 const propTypes = {
   ...SectionProps.types
@@ -25,17 +27,17 @@ const Hero = ({
   ...props
 }) => {
 
-  const [videoModalActive, setVideomodalactive] = useState(false);
+  // const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // }
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
+  // const closeModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(false);
+  // }   
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -52,6 +54,8 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   );
 
+const aboutText = `We're a group of runners from South Park Colorado. We run trails and some roads to get to trails, and we always have fun. We run weekly from the South Park Recreation Center on Sunday's at 9am. It's usually a 3 to 5 mile no drop run and we generally stick together. Come join us!`
+
   return (
     <section
       {...props}
@@ -65,8 +69,10 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                </p>
+                {aboutText}
+              </p>
+              {/*
+              // Button Group
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
@@ -77,8 +83,11 @@ const Hero = ({
                     </Button>
                 </ButtonGroup>
               </div>
+              */}
             </div>
           </div>
+          {/* 
+          // Video Section
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
               data-video="https://player.vimeo.com/video/174002812"
@@ -100,6 +109,7 @@ const Hero = ({
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
             videoTag="iframe" />
+             */}
         </div>
       </div>
     </section>

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2952772360778945000,
+        "name": "Beaver Creek Road",
+        "image": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/5YLJ2HDYKTB6I2J5VOUHOUSVYPCV6BTOF5PSACYFTNU7MKQ37G5NX7EJMEQHECUVGZNIUNVXSAGCPMLX4XICVKM5GOWV5GF5WMAQ====",
+        "description": "Out and back on Beaver Creek. Mostly dirt road.",
+        "distance": 6477.810975222636,
+        "elevation_gain": 83.94203125000013
+    },
+    {
+        "id": 2952770892841394000,
+        "name": "Fairplay Loop",
+        "image": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/VLL3POMDKCQZRF7ZMHLG6ZABFOTKKKNYY5GCOGGAVQG3GY3IAQLE3GSD7PV66DR2DVCOJNVJ2XJGTLOLHL6KI2ZCXF2AMDE2SOPQ====",
+        "description": "Mostly dirt roads. Off to the left there's single track when you join the bike path, just before mile 4.",
+        "distance": 8765.962334320504,
+        "elevation_gain": 161.251567111432
+    },
+    {
+        "id": 2952771661144450600,
+        "name": "Fairplay Tour",
+        "image": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/3A6CPNUBHGRQZNOZVOR6KNUKS6KTUHPXSQ3FLHR4SF3GZE6COJLH2U7V64NR5YY5DKYUMIZUKNKLGIVRLAIO6V2I2F3UBTROXELA====",
+        "description": "Tour up the steep segment and then back through Front St.",
+        "distance": 5313.256102040398,
+        "elevation_gain": 111.88815032539105
+    }
+]
