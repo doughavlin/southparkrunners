@@ -1,15 +1,37 @@
 import { useEffect, useState } from 'react'
-import { strava, getAuthToken} from '../utils/StravaApi'
+import axios from "axios";
+
+const client_id = process.env.REACT_APP_CLIENT_ID;
+const client_secret = process.env.REACT_APP_CLIENT_SECRET;
+const refresh_token = process.env.REACT_APP_REFRESH_TOKEN;
+const base_url = `https://www.strava.com/api/v3/`
+
+const getAuthToken = () => {
+  return axios
+    .request({
+      url: `${base_url}oauth/token?client_id=${client_id}&client_secret=${client_secret}&refresh_token=${refresh_token}&grant_type=refresh_token`,
+      method: "POST",
+      headers: {
+        Accept: "*/*",
+      },
+    })
+    .then(function (response) {
+      return response.data.access_token
+    });
+};
 
 export default () => {
   const [results, setResults] = useState([])
   const [errorMessage, setErrorMessage] = useState('')
   
   const routesApi = async routeIds => {
-    if (localStorage.getItem('expires_in') < 10) { // this is false if no expires_in is defined
-      await getAuthToken()
-    }
-
+    const access_token = await getAuthToken();
+    const strava = axios.create({
+      baseURL: "https://www.strava.com/api/v3/",
+      headers: {
+        Authorization: `Bearer ${access_token}`,
+      },
+    });
     let buildRoutes = []
     Promise.all(
       routeIds.map(routeId => {
