@@ -15,8 +15,8 @@ const getAuthToken = () => {
       },
     })
     .then(function (response) {
-      localStorage.setItem('access_token', response.access_token)
-      localStorage.setItem('expires_in', response.expires_in)
+      localStorage.setItem('access_token', response.data.access_token)
+      localStorage.setItem('expires_in', response.data.expires_in)
     });
 };
 
